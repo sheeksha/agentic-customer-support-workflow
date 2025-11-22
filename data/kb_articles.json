@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "How to reset your password",
+    "category": "authentication",
+    "content": "To reset your password, click on 'Forgot password' on the login page, enter your email address, and follow the instructions in the email. If you do not receive the email within a few minutes, check your spam or junk folder.",
+    "tags": ["password", "login", "account access"]
+  },
+  {
+    "id": 2,
+    "title": "What to do if your account is locked",
+    "category": "authentication",
+    "content": "If your account is locked after multiple failed login attempts, it will automatically unlock after 30 minutes. You can also contact support to unlock it sooner.",
+    "tags": ["account lock", "login", "security"]
+  },
+  {
+    "id": 3,
+    "title": "How to update your payment method",
+    "category": "billing",
+    "content": "To update your payment method, go to Settings > Billing, click 'Update payment method', and enter your new card details. Make sure your billing address matches the one on file with your bank.",
+    "tags": ["billing", "payment", "credit card"]
+  },
+  {
+    "id": 4,
+    "title": "How to request a refund for duplicate charges",
+    "category": "billing",
+    "content": "If you see duplicate charges on your invoice, please contact support with the invoice number and the last four digits of your card. Our team will review and process a refund if applicable.",
+    "tags": ["billing", "refund", "duplicate charge"]
+  },
+  {
+    "id": 5,
+    "title": "How to cancel your subscription",
+    "category": "account",
+    "content": "You can cancel your subscription from Settings > Subscription. Your account will remain active until the end of the billing period, and you will not be charged again.",
+    "tags": ["cancellation", "subscription", "account"]
+  },
+  {
+    "id": 6,
+    "title": "Downloading past invoices",
+    "category": "billing",
+    "content": "To download past invoices, go to Settings > Billing > Invoices. You can download invoices individually as PDF for each billing period.",
+    "tags": ["invoices", "billing history", "accounting"]
+  },
+  {
+    "id": 7,
+    "title": "Improving dashboard performance",
+    "category": "performance",
+    "content": "If your dashboard is slow, try reducing the date range of your reports, closing unused browser tabs, and ensuring you have a stable internet connection. Clearing your browser cache may also help.",
+    "tags": ["performance", "dashboard", "speed"]
+  },
+  {
+    "id": 8,
+    "title": "Exporting data to CSV",
+    "category": "features",
+    "content": "You can export your data to CSV from the Reports page. Please note that exports are limited to 50,000 records per file. For larger exports, create multiple filtered reports.",
+    "tags": ["export", "CSV", "reports"]
+  },
+  {
+    "id": 9,
+    "title": "Supported browsers and devices",
+    "category": "general",
+    "content": "Our app supports the latest versions of Chrome, Firefox, Edge, and Safari. For the best experience on mobile, use our Android or iOS app.",
+    "tags": ["browsers", "devices", "compatibility"]
+  },
+  {
+    "id": 10,
+    "title": "Contacting customer support",
+    "category": "general",
+    "content": "You can contact customer support via in-app chat, email, or phone. Our support hours are Monday to Friday, 9 AM to 5 PM (local time).",
+    "tags": ["support", "contact", "hours"]
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "channel": "chat",
+    "customer_name": "Sophia Garcia",
+    "subject": "Question about my subscription",
+    "message": "I have a question about what is included in my current subscription plan.",
+    "created_at": "2025-11-09T06:00:00Z"
+  },
+  {
+    "id": 2,
+    "channel": "chat",
+    "customer_name": "Michael Brown",
+    "subject": "Feature not working as expected",
+    "message": "The export to CSV feature only downloads part of my data. Is there a limit on the number of records?",
+    "created_at": "2025-11-07T22:00:00Z"
+  },
+  {
+    "id": 3,
+    "channel": "chat",
+    "customer_name": "Sarah Lee",
+    "subject": "Slow performance on dashboard",
+    "message": "The dashboard is extremely slow to load my reports compared to a few weeks ago.",
+    "created_at": "2025-11-11T05:00:00Z"
+  },
+  {
+    "id": 4,
+    "channel": "chat",
+    "customer_name": "James Anderson",
+    "subject": "Need invoice for last year",
+    "message": "I need all invoices for my account for the last year. How can I download them?",
+    "created_at": "2025-11-10T07:00:00Z"
+  },
+  {
+    "id": 5,
+    "channel": "web",
+    "customer_name": "Daniel Martinez",
+    "subject": "Billing charge looks wrong",
+    "message": "Hello, I was charged twice for my subscription this month. Can you please check and refund the extra payment?",
+    "created_at": "2025-11-07T06:00:00Z"
+  },
+  {
+    "id": 6,
+    "channel": "web",
+    "customer_name": "Sarah Lee",
+    "subject": "Billing charge looks wrong",
+    "message": "Hello, I was charged twice for my subscription this month. Can you please check and refund the extra payment?",
+    "created_at": "2025-11-02T19:00:00Z"
+  },
+  {
+    "id": 7,
+    "channel": "email",
+    "customer_name": "Daniel Martinez",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-02T09:00:00Z"
+  },
+  {
+    "id": 8,
+    "channel": "email",
+    "customer_name": "Michael Brown",
+    "subject": "Password reset email not received",
+    "message": "I tried resetting my password but I never receive the reset email, even in my spam folder.",
+    "created_at": "2025-11-02T18:00:00Z"
+  },
+  {
+    "id": 9,
+    "channel": "email",
+    "customer_name": "Olivia Wilson",
+    "subject": "Question about my subscription",
+    "message": "I have a question about what is included in my current subscription plan.",
+    "created_at": "2025-11-04T20:00:00Z"
+  },
+  {
+    "id": 10,
+    "channel": "email",
+    "customer_name": "David Johnson",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-10T17:00:00Z"
+  },
+  {
+    "id": 11,
+    "channel": "chat",
+    "customer_name": "Emma Thompson",
+    "subject": "Requesting account cancellation",
+    "message": "I'd like to cancel my account at the end of this billing cycle. Please confirm when it's done.",
+    "created_at": "2025-11-08T05:00:00Z"
+  },
+  {
+    "id": 12,
+    "channel": "email",
+    "customer_name": "John Smith",
+    "subject": "Feature not working as expected",
+    "message": "The export to CSV feature only downloads part of my data. Is there a limit on the number of records?",
+    "created_at": "2025-11-11T04:00:00Z"
+  },
+  {
+    "id": 13,
+    "channel": "chat",
+    "customer_name": "Emily Davis",
+    "subject": "Question about my subscription",
+    "message": "I have a question about what is included in my current subscription plan.",
+    "created_at": "2025-11-06T13:00:00Z"
+  },
+  {
+    "id": 14,
+    "channel": "email",
+    "customer_name": "David Johnson",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-09T22:00:00Z"
+  },
+  {
+    "id": 15,
+    "channel": "web",
+    "customer_name": "Sarah Lee",
+    "subject": "Billing charge looks wrong",
+    "message": "Hello, I was charged twice for my subscription this month. Can you please check and refund the extra payment?",
+    "created_at": "2025-11-02T15:00:00Z"
+  },
+  {
+    "id": 16,
+    "channel": "email",
+    "customer_name": "Sophia Garcia",
+    "subject": "Can't log into my account",
+    "message": "Hi, I haven't been able to log into my account since this morning. It keeps saying my password is incorrect.",
+    "created_at": "2025-11-07T15:00:00Z"
+  },
+  {
+    "id": 17,
+    "channel": "email",
+    "customer_name": "John Smith",
+    "subject": "Requesting account cancellation",
+    "message": "I'd like to cancel my account at the end of this billing cycle. Please confirm when it's done.",
+    "created_at": "2025-11-09T04:00:00Z"
+  },
+  {
+    "id": 18,
+    "channel": "email",
+    "customer_name": "Olivia Wilson",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "id": 19,
+    "channel": "chat",
+    "customer_name": "Sophia Garcia",
+    "subject": "Feature not working as expected",
+    "message": "The export to CSV feature only downloads part of my data. Is there a limit on the number of records?",
+    "created_at": "2025-11-09T07:00:00Z"
+  },
+  {
+    "id": 20,
+    "channel": "email",
+    "customer_name": "David Johnson",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-08T16:00:00Z"
+  },
+  {
+    "id": 21,
+    "channel": "email",
+    "customer_name": "Sophia Garcia",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-08T22:00:00Z"
+  },
+  {
+    "id": 22,
+    "channel": "chat",
+    "customer_name": "James Anderson",
+    "subject": "Requesting account cancellation",
+    "message": "I'd like to cancel my account at the end of this billing cycle. Please confirm when it's done.",
+    "created_at": "2025-11-09T11:00:00Z"
+  },
+  {
+    "id": 23,
+    "channel": "chat",
+    "customer_name": "Emily Davis",
+    "subject": "Can't log into my account",
+    "message": "Hi, I haven't been able to log into my account since this morning. It keeps saying my password is incorrect.",
+    "created_at": "2025-11-11T03:00:00Z"
+  },
+  {
+    "id": 24,
+    "channel": "web",
+    "customer_name": "Sarah Lee",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-10T22:00:00Z"
+  },
+  {
+    "id": 25,
+    "channel": "chat",
+    "customer_name": "David Johnson",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-07T13:00:00Z"
+  },
+  {
+    "id": 26,
+    "channel": "chat",
+    "customer_name": "John Smith",
+    "subject": "Change payment method",
+    "message": "I want to update the credit card on my account but the payment page keeps showing an error.",
+    "created_at": "2025-11-01T21:00:00Z"
+  },
+  {
+    "id": 27,
+    "channel": "chat",
+    "customer_name": "Emily Davis",
+    "subject": "Feature not working as expected",
+    "message": "The export to CSV feature only downloads part of my data. Is there a limit on the number of records?",
+    "created_at": "2025-11-11T03:00:00Z"
+  },
+  {
+    "id": 28,
+    "channel": "chat",
+    "customer_name": "Michael Brown",
+    "subject": "Can't log into my account",
+    "message": "Hi, I haven't been able to log into my account since this morning. It keeps saying my password is incorrect.",
+    "created_at": "2025-11-08T13:00:00Z"
+  },
+  {
+    "id": 29,
+    "channel": "chat",
+    "customer_name": "John Smith",
+    "subject": "Need invoice for last year",
+    "message": "I need all invoices for my account for the last year. How can I download them?",
+    "created_at": "2025-11-08T10:00:00Z"
+  },
+  {
+    "id": 30,
+    "channel": "web",
+    "customer_name": "Emily Davis",
+    "subject": "Question about my subscription",
+    "message": "I have a question about what is included in my current subscription plan.",
+    "created_at": "2025-11-02T12:00:00Z"
+  },
+  {
+    "id": 31,
+    "channel": "chat",
+    "customer_name": "Michael Brown",
+    "subject": "Can't log into my account",
+    "message": "Hi, I haven't been able to log into my account since this morning. It keeps saying my password is incorrect.",
+    "created_at": "2025-11-08T15:00:00Z"
+  },
+  {
+    "id": 32,
+    "channel": "web",
+    "customer_name": "Sarah Lee",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-07T10:00:00Z"
+  },
+  {
+    "id": 33,
+    "channel": "web",
+    "customer_name": "Michael Brown",
+    "subject": "Slow performance on dashboard",
+    "message": "The dashboard is extremely slow to load my reports compared to a few weeks ago.",
+    "created_at": "2025-11-06T14:00:00Z"
+  },
+  {
+    "id": 34,
+    "channel": "web",
+    "customer_name": "James Anderson",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-09T21:00:00Z"
+  },
+  {
+    "id": 35,
+    "channel": "web",
+    "customer_name": "Michael Brown",
+    "subject": "Change payment method",
+    "message": "I want to update the credit card on my account but the payment page keeps showing an error.",
+    "created_at": "2025-11-06T21:00:00Z"
+  },
+  {
+    "id": 36,
+    "channel": "chat",
+    "customer_name": "Daniel Martinez",
+    "subject": "Change payment method",
+    "message": "I want to update the credit card on my account but the payment page keeps showing an error.",
+    "created_at": "2025-11-05T04:00:00Z"
+  },
+  {
+    "id": 37,
+    "channel": "chat",
+    "customer_name": "Emily Davis",
+    "subject": "App keeps crashing on startup",
+    "message": "Every time I open the mobile app, it crashes after a few seconds on my phone.",
+    "created_at": "2025-11-05T13:00:00Z"
+  },
+  {
+    "id": 38,
+    "channel": "chat",
+    "customer_name": "David Johnson",
+    "subject": "Requesting account cancellation",
+    "message": "I'd like to cancel my account at the end of this billing cycle. Please confirm when it's done.",
+    "created_at": "2025-11-03T10:00:00Z"
+  },
+  {
+    "id": 39,
+    "channel": "chat",
+    "customer_name": "Michael Brown",
+    "subject": "Question about my subscription",
+    "message": "I have a question about what is included in my current subscription plan.",
+    "created_at": "2025-11-08T11:00:00Z"
+  },
+  {
+    "id": 40,
+    "channel": "chat",
+    "customer_name": "Michael Brown",
+    "subject": "Question about my subscription",
+    "message": "I have a question about what is included in my current subscription plan.",
+    "created_at": "2025-11-06T13:00:00Z"
+  }
+]
