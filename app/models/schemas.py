@@ -1,5 +1,6 @@
 from typing import List, Optional
 from pydantic import BaseModel
+from datetime import datetime
 
 
 class Ticket(BaseModel):
@@ -10,6 +11,11 @@ class Ticket(BaseModel):
     message: str
     created_at: str
 
+class TicketInput(BaseModel):
+    channel: str = "email"
+    customer_name: str = "Guest"
+    subject: str
+    message: str
 
 class TriageResult(BaseModel):
     category: str
