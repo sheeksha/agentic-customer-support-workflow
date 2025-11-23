@@ -3,11 +3,11 @@
 A production-ready multi-agent LLM system for automating customer support ticket processing. Built with FastAPI, LangChain, OpenAI, NumPy embeddings, and React, and deployed on Netlify.
 
 ## 🌐 Live Demo
-Frontend: https://agentic-1.netlify.app/
-Backend: https://agentic-support-api.onrender.com/
+- Frontend: https://agentic-1.netlify.app/
+- Backend: https://agentic-support-api.onrender.com/
 
 ## Overview
-This project implements a multi-agent workflow that automates the end-to-end processing of customer support tickets using LLM-powered agents. It replicates how real enterprise support systems triage, retrieve knowledge, draft replies, and refine responses — but fully automated.
+This project implements a multi-agent workflow that automates the end-to-end processing of customer support tickets using LLM-powered agents. It replicates how real enterprise support systems triage, retrieve knowledge, draft replies, and refine responses, fully automated.
 
 Agents work collaboratively:
 1. **Triage Agent** – Classifies ticket category, priority, and customer sentiment
@@ -19,32 +19,9 @@ Agents work collaboratively:
 ## Architecture
 The workflow is exposed via a REST API and displayed in a React dashboard.
 
-          ┌────────────────────────────────────┐
-          │            Frontend (React)         │
-          │  User submits ticket via dashboard  │
-          └───────────────────────┬────────────┘
-                                  │
-                                  ▼
-                      ┌──────────────────────────┐
-                      │    FastAPI Backend API   │
-                      └───────┬──────────────────┘
-                              │
-          ┌───────────────────┼──────────────────────────┐
-          ▼                   ▼                          ▼
-   ┌─────────────┐     ┌──────────────┐        ┌────────────────┐
-   │ TRIAGE AGENT │     │ RETRIEVAL    │        │  DRAFT AGENT   │
-   │ Classify      │     │ Search KB    │        │ Generate reply │
-   └──────┬────────┘     └─────┬────────┘        └───────┬────────┘
-          │                    │                           │
-          └────────────────────▼───────────────────────────┘
-                                  ▼
-                         ┌────────────────┐
-                         │  QA AGENT      │
-                         │ Polishes reply │
-                         └───────┬────────┘
-                                 ▼
-                        Final response JSON
-
+<p align="center">
+  <img src="assets/screenshots/architecture.jpg" width="500" />
+</p>
 
 ## Agents in Detail
 ### 1. Triage Agent
@@ -71,7 +48,7 @@ Creates a first-pass customer response by combining:
 
 Writes like a helpful support representative.
 
-### QA Agent
+### 4. QA Agent
 Improves:
 - Tone
 - Clarity
@@ -83,10 +60,13 @@ Returns the final customer-facing answer.
 
 ## API Endpoints
 1. `GET /health`
+
 **Health check**
+
 Response: `{ "status": "ok" }`
 
 2. `POST /process`
+
 Run the entire multi-agent workflow.
 
 **Request**
@@ -147,22 +127,12 @@ npm run dev
 ```
 
 ## Project Structure
-.
-├── app/
-│   ├── agents/
-│   ├── models/
-│   ├── services/
-│   └── main.py
-├── data/
-├── frontend/
-├── scripts/
-├── Dockerfile
-├── requirements.txt
-└── README.md
+
+<p align="center">
+  <img src="assets/screenshots/structure.jpg" width="400" />
+</p>
 
 ## Demo images
-## 📸 Screenshots
-
 Below are selected screenshots from the live demo showing the agentic workflow in action.
 
 ---
@@ -171,15 +141,15 @@ Below are selected screenshots from the live demo showing the agentic workflow i
 This is where the user submits a customer support ticket.
 
 <p align="center">
-  <img src="assets/screenshots/app-page.jpg" width="700" />
+  <img src="assets/screenshots/app-page.jpg" width="500" />
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/submit-ticket.jpg" width="700" />
+  <img src="assets/screenshots/submit-ticket.jpg" width="500" />
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/submission.jpg" width="700" />
+  <img src="assets/screenshots/submission.jpg" width="500" />
 </p>
 ---
 
@@ -187,7 +157,7 @@ This is where the user submits a customer support ticket.
 The ticket is analyzed for category, priority, and sentiment.
 
 <p align="center">
-  <img src="assets/screenshots/triage-agent.jpg" width="700" />
+  <img src="assets/screenshots/triage-agent.jpg" width="500" />
 </p>
 
 ---
@@ -196,7 +166,7 @@ The ticket is analyzed for category, priority, and sentiment.
 The system retrieves the top relevant articles using semantic search.
 
 <p align="center">
-  <img src="assets/screenshots/retrieval-agent.jpg" width="700" />
+  <img src="assets/screenshots/retrieval-agent.jpg" width="500" />
 </p>
 
 ---
@@ -205,7 +175,7 @@ The system retrieves the top relevant articles using semantic search.
 LLM generates the initial draft response.
 
 <p align="center">
-  <img src="assets/screenshots/draft-response-agent.jpg" width="700" />
+  <img src="assets/screenshots/draft-response-agent.jpg" width="500" />
 </p>
 
 ---
@@ -214,7 +184,7 @@ LLM generates the initial draft response.
 The QA agent returns the final customer-ready reply.
 
 <p align="center">
-  <img src="assets/screenshots/qa-agent.jpg" width="700" />
+  <img src="assets/screenshots/qa-agent.jpg" width="500" />
 </p>
 
 ---
@@ -223,7 +193,7 @@ The QA agent returns the final customer-ready reply.
 All steps of the pipeline displayed together.
 
 <p align="center">
-  <img src="assets/screenshots/full-workflow.jpg" width="700" />
+  <img src="assets/screenshots/full-workflow.jpg" width="500" />
 </p>
 
 
