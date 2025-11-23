@@ -125,7 +125,7 @@ function App() {
             </div>
 
             <button type="submit" disabled={loading} className="submit-btn">
-              {loading ? "Processing..." : "Run Agent Workflow"}
+              {loading ? "Running agents... (may take up to 1 minute)" : "Run Agent Workflow"}
             </button>
 
             {error && <p className="error-text">{error}</p>}
