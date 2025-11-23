@@ -1,12 +1,10 @@
 fastapi
 uvicorn[standard]
-langchain
-langchain-openai
 python-dotenv
-faiss-cpu
-pydantic
-httpx
 langchain==0.1.17
 langchain-core==0.1.41
 langchain-community==0.0.29
 langchain-openai==0.1.5
+faiss-cpu
+pydantic
+httpx
